@@ -10,7 +10,7 @@ readdir(projectsPath).then((projects) => {
   const links = projects.map((project) => {
     return {
       name: project,
-      link: `/${projectsFolderName}/${project}`,
+      link: `${projectsFolderName}/${project}`,
     };
   });
 

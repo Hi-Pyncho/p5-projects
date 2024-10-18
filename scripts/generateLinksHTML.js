@@ -15,7 +15,7 @@ async function generateLinksHTML() {
 
     titleElem.textContent = project.name;
 
-    imgElem.src = `/thumbnails/${project.name}.gif`;
+    imgElem.src = `thumbnails/${project.name}.gif`;
 
     listElem.append(linkElem);
     listElem.append(titleElem);
