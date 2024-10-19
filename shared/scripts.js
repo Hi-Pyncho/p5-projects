@@ -19,7 +19,6 @@ function addSaveToGifBehavior() {
       frameRate(20);
       saveGif(document.title, 3);
       frameRate(60);
-      // saveCanvas(document.title, 'webp');
     }
   });
 }
