@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "generate": "node ./scripts/boilerplate.js"
+    "generate": "node ./scripts/boilerplate.js",
+    "update-links": "node ./scripts/generateLinks.js"
   },
   "keywords": [],
   "author": "",
